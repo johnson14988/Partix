@@ -1,0 +1,45 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# PyCharm 配置文件和目录（不需要上传）
+.idea/
+*.iml
+
+# 其他常见忽略项
+*.egg-info/
+dist/
+build/
+
+# 日志文件
+*.log
+
+# 操作系统产生的文件
+.DS_Store
+Thumbs.db
+
+# pytest 缓存
+.pytest_cache/
+
+# mypy 类型检查缓存
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# coverage 测试报告
+.coverage
+htmlcov/
+
+# pipenv
+Pipfile.lock
+
+# pyenv
+.python-version
