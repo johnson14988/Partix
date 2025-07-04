@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Show project name from pyproject.toml
+        run: |
+          python -c "import tomllib; print('Project name:', tomllib.load(open('pyproject.toml', 'rb'))['project']['name'])"
+
       - name: Build release distributions
         run: |
           # NOTE: put your own distribution build steps here.
