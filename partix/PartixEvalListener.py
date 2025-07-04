@@ -1,4 +1,4 @@
-from PartixListener import PartixListener
+from .PartixListener import PartixListener
 
 class PartixEvalListener(PartixListener):
     def __init__(self):

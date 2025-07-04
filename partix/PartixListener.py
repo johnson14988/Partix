@@ -1,9 +1,9 @@
 # Generated from Partix.g4 by ANTLR 4.13.2
 from antlr4 import *
 if "." in __name__:
-    from partix.PartixParser import PartixParser
+    from .PartixParser import PartixParser
 else:
-    from partix.PartixParser import PartixParser
+    from .PartixParser import PartixParser
 
 # This class defines a complete listener for a parse tree produced by PartixParser.
 class PartixListener(ParseTreeListener):
