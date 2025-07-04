@@ -26,9 +26,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Show project name from pyproject.toml
+      - name: Show project name (Python <=3.10)
         run: |
-          python -c "import tomllib; print('Project name:', tomllib.load(open('pyproject.toml', 'rb'))['project']['name'])"
+          pip install tomli
+          python -c "import tomli; print('📦 Project name:', tomli.load(open('pyproject.toml', 'rb'))['project']['name'])"
 
       - name: Build release distributions
         run: |
