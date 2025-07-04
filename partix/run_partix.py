@@ -28,5 +28,8 @@ def run_ptx_file(ptx_file):
     i = 1
     for block in blocks:
         print(f"----------Block{i}----------")
-        run(block)
+        meta, passed, normal = run(block)
+        print(meta)
+        print(passed)
+        print(normal)
         i += 1
