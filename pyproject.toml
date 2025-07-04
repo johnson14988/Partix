@@ -10,7 +10,10 @@ authors = [
     { name="HJH", email="me@example.com" }
 ]
 license = { text="MIT" }
-dependencies = []
+dependencies = [
+    "antlr4-python3-runtime>=4.11,<5",
+    "jsonpath_ng==1.7.0"
+]
 
 [project.urls]
 Homepage = "https://example.igrashiyouma.com"
