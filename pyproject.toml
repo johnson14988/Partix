@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "testpkg-igarashiyouma"
+name = "syqiauskzyaueisa"
 version = "0.0.1"
 description = "A minimal test package for publishing to PyPI"
 authors = [
