@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "partix"
-version = "0.1.0"
+version = "0.1.1"
 description = "A minimal test package for publishing to PyPI"
 authors = [
     { name="HJH", email="me@example.com" }
