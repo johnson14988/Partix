@@ -1,9 +1,10 @@
 from antlr4 import *
-from PartixLexer import PartixLexer
-from PartixParser import PartixParser
 from antlr4.tree.Tree import ParseTreeWalker
-from PartixEvalListener import PartixEvalListener
-from preprocessor import preprocess
+from partix.preprocessor import preprocess
+from partix.PartixLexer import PartixLexer
+from partix.PartixParser import PartixParser
+from partix.PartixEvalListener import PartixEvalListener
+
 
 def run(program):
     input_stream = InputStream(program)
